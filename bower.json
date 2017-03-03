@@ -1,0 +1,21 @@
+{
+  "name": "almundo",
+  "homepage": "https://github.com/nahuelcabrera/almundo",
+  "authors": [
+    "nahuelcabrera <nahuelcabrerawork@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
