@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Enviar mis datos</title>
+        <style media="screen">
+            body{
+                background-color: #7acee4;
+                color: #4238b5;
+                font-family: helvetica;
+
+            }
+            .headtext{
+                align-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="headtext">
+            <h1>Completa el formulario</h1>
+
+        </div>
+        <br>
+        <div class="form">
+            <form class="form_one" action="/datos" method="post">
+                <label for="name">
+                    <h3>Nombres:</h3>
+                </label>
+
+                <input type="text" name="nombre" value="" id="name">
+
+                <label for="apell">
+                    <h3>Apellido:</h3>
+                </label>
+
+                <input type="text" name="apellido" value="" id="apell">
+
+                <label for="edad">
+                    <h3>Edad:</h3>
+                </label>
+
+                <input type="text" name="edad" value="" id="edad">
+
+                <label for="nation">
+                    <h3>Nacionalidad:</h3>
+                </label>
+
+                <input type="text" name="nacionalidad" value="" id="nation">
+
+                <label for="tel">
+                    <h3>Teléfono:</h3>
+                </label>
+
+                <input type="text" name="telefono" value="" id="tel">
+                <br><br>
+
+                <input type="submit" value="APLICAR">
+
+            </form>
+        </div>
+
+    </body>
+</html>
