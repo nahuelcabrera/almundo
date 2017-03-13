@@ -1,0 +1,42 @@
+/*a{
+    color: $link;
+    &:hover{
+        color: darken($link, %10);
+    }
+
+}*/
+button {
+  border: 2px solid;
+  background: greenyellow;
+  color: #fff;
+  color: #ada244; }
+  button:hover {
+    color: #020b0e; }
+
+button {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14.4px;
+  color: #2be721; }
+
+p {
+  margin: 10px;
+  background-color: rgba(68, 59, 85, 0.81); }
+  @media only screen and (max-width: 768px -1) {
+    p {
+      color: #a4d917;
+      font-size: 21px; } }
+  @media only screen and (max-width: 1024px -1) {
+    p {
+      color: #db1515;
+      font-size: 32px; } }
+
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* Document
+   ========================================================================== */

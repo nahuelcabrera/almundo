@@ -1,0 +1,51 @@
+//@@include normalize;
+
+/*a{
+    color: $link;
+    &:hover{
+        color: darken($link, %10);
+    }
+
+}*/
+
+@mixin button-base{
+    border: 2px solid;
+    background: greenyellow;
+    color: #fff;
+    &:hover{
+        color: darken($link, 40%);
+    }
+}
+
+button{
+    @include button-base;
+    color: #ada244;
+}
+
+@mixin font ($weight, $size){
+    font-weight: $weight;
+    font-size: $size;
+    line-height: 1.2 * $size;
+}
+
+button{
+    @include font(bold, 12px);
+    color: #2be721;
+}
+
+p{
+    margin: 10px;
+
+    background-color: rgba(68, 59, 85, 0.81);
+
+    @include respond-to(ph)
+    {
+        color: #a4d917;
+        font-size: 21px;
+
+    @include respond-to(desk)
+    
+        color: #db1515;
+        font-size: 32px;
+    }
+}
